@@ -1,8 +1,8 @@
 (function(_mo) {
     "use strict";
-	hello: function(){
+	_mo.hello = function(){
 		console.log('hello module');
-	},
+	};
     var Pagination = function(pdom, pageClick) {
         var self = this;
         //Ìí¼Óµ½ÄÄ¸öDOM
